@@ -41,4 +41,5 @@ for letra in chave:
         senha = senha + "!"
     elif letra in "Ii":
         senha = senha + "&"
-    
+    else: senha = senha + letra
+print(senha)
